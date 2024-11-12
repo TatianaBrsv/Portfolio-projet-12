@@ -1,0 +1,17 @@
+[
+    {
+        "image": "images/en.png",
+        "title": "Anglais",
+        "text": "intermédiaire"
+    },
+    {
+        "image": "images/fr.jpeg",
+        "title": "Français",
+        "text": "courant"
+    },
+    {
+        "image": "images/ru.jpg",
+        "title": "Russe",
+        "text": "langue maternelle"
+    }
+]

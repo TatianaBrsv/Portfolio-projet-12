@@ -6,13 +6,18 @@
     },
     {
         "image": "js.jpg",
-        "title": "javascript",
+        "title": "Javascript",
         "text": "Manipulation du DOM, création d’éléments dynamiques, gestion de données de formulaires"
     },
     {
         "image": "react.jpg",
         "title": "React",
         "text": "Création d’applications React, création de composants et manipulation de leur état"
+    },
+    {
+        "image": "cypress.jpeg",
+        "title": "Cypress",
+        "text": "Automatisation des tests fonctionnels, des smoke tests et des tests d'API"
     },
     {
         "image": "gestion-de-projet.png",

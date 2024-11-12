@@ -99,8 +99,45 @@ function createPortfolioFromJSON() {
         });
 }
 
+// Function to dynamically create "Langues" section from the JSON file
+function createLanguesFromJSON() {
+    const container = document.getElementById("langues-container");
+
+    // Load the JSON file
+    fetch("data/langues.json")
+        .then((response) => response.json())
+        .then((data) => {
+            // Iterate through JSON data and create HTML elements for each language
+            data.forEach((langue) => {
+                const langueCard = document.createElement("div");
+                langueCard.classList.add("langue-card");
+
+                // Optional: add an image if it exists
+                if (langue.image) {
+                    const image = document.createElement("img");
+                    image.src = langue.image;
+                    image.alt = `${langue.title} icon`;
+                    image.classList.add("langue-image");
+                    langueCard.appendChild(image);
+                }
+
+                const title = document.createElement("h3");
+                title.textContent = langue.title;
+                langueCard.appendChild(title);
+
+                const text = document.createElement("p");
+                text.textContent = langue.text;
+                langueCard.appendChild(text);
+
+                // Append the card to the container
+                container.appendChild(langueCard);
+            });
+        })
+        .catch((error) => console.error("Erreur de chargement des langues:", error));
+}
 // Call the functions to execute the code
 handleNavbarScroll();
 handleNavbarCollapse();
 createSkillsFromJSON();
 createPortfolioFromJSON();
+createLanguesFromJSON();

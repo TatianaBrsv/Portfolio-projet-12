@@ -1,20 +1,20 @@
 [
     {
         "image": "image1.png",
-        "title": "Booki",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#"
+        "title": "Site portfolio ",
+        "text": "Développement du site portfolio d’une architecte d’intérieur",
+        "link": "https://github.com/TatianaBrsv/Site-Portfolio-de-Sophie-Bluel.git"
     },
     {
         "image": "image2.png",
-        "title": "Mon Vieux grimoire",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#"
+        "title": "Eco Bliss Bath",
+        "text": "Automatisation les tests fonctionnels via Cypress pour une boutique en ligne",
+        "link": "https://github.com/TatianaBrsv/Eco-Bliss-Bath.git"
     },
     {
         "image": "image3.png",
         "title": "Kasa",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#"
+        "text": "Création d'un site en version mobile et desktop en utilisant React",
+        "link": "https://github.com/TatianaBrsv/kasa.git"
     }
 ]
