@@ -15,6 +15,16 @@
         "text": "Création d’applications React, création de composants et manipulation de leur état"
     },
     {
+        "image": "vscode.jpeg",
+        "title": "Visual Studio Code",
+        "text": "Développement, configuration de l'environnement, utilisation des extensions et débogage efficace du code"
+    },
+    {
+        "image": "github.jpeg",
+        "title": "GutHub",
+        "text": "Publication de code source, gestion de versions, suivi des modifications et collaboration sur des projets"
+    },
+    {
         "image": "cypress.jpeg",
         "title": "Cypress",
         "text": "Automatisation des tests fonctionnels, des smoke tests et des tests d'API"
@@ -26,8 +36,8 @@
     },
     {
         "image": "optimisation-et-debug.png",
-        "title": "Optimisation et debug",
-        "text": "Identification des anomalies et correction d’un site existant, optimisation SEO et performance et publication d’un site en ligne"
+        "title": "Debug",
+        "text": "Identification des anomalies et correction d’un site existant"
     },
     {
         "image": "test.png",
