@@ -1,5 +1,10 @@
 [
     {
+        "image": "mcoffice.jpeg",
+        "title": "Microsoft Office",
+        "text": "Création et gestion de documents Word, analyses de données avec Excel, réalisation de présentations professionnelles sous PowerPoint"
+    },
+    {
         "image": "html-css.jpg",
         "title": "HTML - CSS",
         "text": "Intégration d’interfaces responsives et accessibles, utilisation de maquettes Figma, développement d’animations CSS"
@@ -33,6 +38,11 @@
         "image": "gestion-de-projet.png",
         "title": "Gestion de projet",
         "text": "Analyse des besoins d’un client, définition d’une solution technique répondant aux besoins fonctionnelle, planification du projet"
+    },
+    {
+        "image": "jira.png",
+        "title": "Jira et Trello",
+        "text": "Maîtrise des outils de gestion de projet comme Jira et Trello pour organiser les tâches, suivre l'avancement des projets, et favoriser la collaboration en équipe"
     },
     {
         "image": "optimisation-et-debug.png",
