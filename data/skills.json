@@ -1,6 +1,6 @@
 [
     {
-        "image": "mcoffice.jpeg",
+        "image": "Mcoffice.jpeg",
         "title": "Microsoft Office",
         "text": "Création et gestion de documents Word, analyses de données avec Excel, réalisation de présentations professionnelles sous PowerPoint"
     },
@@ -40,7 +40,7 @@
         "text": "Analyse des besoins d’un client, définition d’une solution technique répondant aux besoins fonctionnelle, planification du projet"
     },
     {
-        "image": "jira.png",
+        "image": "Jira.png",
         "title": "Jira et Trello",
         "text": "Maîtrise des outils de gestion de projet comme Jira et Trello pour organiser les tâches, suivre l'avancement des projets, et favoriser la collaboration en équipe"
     },
