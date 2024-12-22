@@ -135,9 +135,52 @@ function createLanguesFromJSON() {
         })
         .catch((error) => console.error("Erreur de chargement des langues:", error));
 }
+
+function createFormationsFromJSON() {
+    const container = document.querySelector("#formations-container");
+
+    if (!container) {
+        console.error("container n'est pas trouvé.");
+        return;
+    }
+
+    // Load the JSON file
+    fetch("data/formations.json")
+        .then((response) => response.json())
+        .then((data) => {
+            // Iterate through the JSON data and create HTML elements
+            data.forEach((formation) => {
+                const FormationCard = document.createElement("div");
+                FormationCard.classList.add("formation-card");
+
+                // Optional: add an image if it exists
+                if (formation.image) {
+                    const image = document.createElement("img"); 
+                    image.src = formation.image;
+                    image.alt = `${formation.title} icon`;
+                    image.classList.add("formation-image");
+                    FormationCard.appendChild(image);
+                }
+
+                const title = document.createElement("h3");
+                title.textContent = formation.title;
+                FormationCard.appendChild(title);
+
+                const text = document.createElement("p");
+                text.textContent = formation.text;
+                FormationCard.appendChild(text);
+
+                // Append the card to the container
+                container.appendChild(FormationCard);
+            });
+        })
+        .catch((error) => console.error("Erreur de chargement des formations:", error));
+}
+
 // Call the functions to execute the code
 handleNavbarScroll();
 handleNavbarCollapse();
 createSkillsFromJSON();
 createPortfolioFromJSON();
 createLanguesFromJSON();
+createFormationsFromJSON();
