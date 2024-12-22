@@ -90,6 +90,13 @@
 }
 
 /* portfolio */
+.portfolioContent {
+    border: 1px solid #ccc; 
+    cursor: pointer;
+}
+.portfolioContent:hover {
+    border: 1px solid #008000; 
+}
 #portfolio p {
     text-align: center;
 }
@@ -117,7 +124,9 @@
     padding: 10px;
     width: 150px;
     text-align: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: border 0.3s ease, transform 0.3s ease;
+    border-radius: 6px;
 }
 
 .langue-card img {
@@ -126,12 +135,17 @@
     object-fit: cover;
     margin-bottom: 10px;
 }
+.langue-card:hover {
+    border: 1px solid #008000;
+}
 /* Formations */
 .formation-card {
     height: 250px;
     cursor: pointer;
     border: 1px solid #ccc;
     transition: border 0.3s ease, transform 0.3s ease;
+    border-radius: 6px;
+    margin-bottom: 15px;
 }
 
 .formation-card img {
@@ -155,30 +169,21 @@ img.formation-image {
     padding-top: 10px;
 }
 
-
-/* Styling for icons or additional elements (if you want to include them) */
-.formation-icon {
-    font-size: 36px;
-    text-align: center;
-    width: 100%;
-}
-
 /* Hover effects */
 .formation-card:hover {
     border: 1px solid #008000;
-    transform: translateY(-5px); /* Slight lift effect */
 }
 
-.formation-card:hover .formation-icon {
-    color: #008000;
-}
 /* footer */
 
-@media (max-width: 375px) {
+@media (max-width: 390px) {
     .hero_title {
         font-size: 2.5rem;
     }
     .hero_desc {
         font-size: 1.5rem;
     }
+.nav-link {
+    padding: 0;
+}
 }
