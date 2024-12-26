@@ -112,7 +112,7 @@ function createLanguesFromJSON() {
                 const langueCard = document.createElement("div");
                 langueCard.classList.add("langue-card");
 
-                // Optional: add an image if it exists
+           
                 if (langue.image) {
                     const image = document.createElement("img");
                     image.src = langue.image;
@@ -153,7 +153,6 @@ function createFormationsFromJSON() {
                 const FormationCard = document.createElement("div");
                 FormationCard.classList.add("formation-card");
 
-                // Optional: add an image if it exists
                 if (formation.image) {
                     const image = document.createElement("img"); 
                     image.src = formation.image;
